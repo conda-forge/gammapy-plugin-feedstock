@@ -1,6 +1,6 @@
 context:
   name: gammapy-plugin
-  version: 0.0.2 
+  version: 0.0.3
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/g/gammapy-plugin/gammapy_plugin-${{ version }}.tar.gz
-  sha256: acaa82d0b58d972637f47f8a898761f8c7b5737fa22ec9a9c95fbe550a420322
+  sha256: aba82035078ddf1b72af635393e94881ec1ab7c9182537cb7ca2eb95af6c4f24
 
 build:
   noarch: python
